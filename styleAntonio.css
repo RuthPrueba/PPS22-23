@@ -1,12 +1,29 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background-image: ;
+    
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(230, 251, 222);
+    /* background-color: rgb(230, 251, 222); */
+}
+
+#body {
+    height: 100vh;
+    background-image: url(./fondoWeb.jpg);
+}
+
+#texto {
+    height: 100vh;
+    background-color: rgb(164, 225, 255);
+}
+
+#culo {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #ey {
@@ -19,13 +36,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    border: 10px double rgb(52, 145, 52);
+    border: 10px double white;
     transition: all 0.45s;
+    color: white;
 }
 
 #ey:hover {
     font-size: 1.1em;
-    border: 4px solid rgb(52, 145, 52);
+    border: 4px solid white;
     padding: 20px;
     transition: 0.45s;
 }
