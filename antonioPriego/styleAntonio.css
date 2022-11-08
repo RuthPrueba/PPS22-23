@@ -1,16 +1,12 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* background-color: rgb(230, 251, 222); */
-}
-
-h1 {
-    color: white;
 }
 
 #inicio {
@@ -23,26 +19,37 @@ h1 {
     background-color: rgb(164, 225, 255);
 }
 
-#rectBody {
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 #rect {
-    margin-left: auto;
-    margin-right: auto;
-    width: 20vw;
+    width: 40vw;
+    height: 30vh;
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
     border: 10px double white;
     transition: all 0.45s;
+    display: table;
+    backdrop-filter: blur(100px);
+}
+
+#aBody {
     color: white;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+
+#aBtn {
+    bottom: -95%;
+    right: 5%;
+    width: 5vw;
+    text-align: center;
+    position: absolute;
+    color: black;
 }
 
 #rect:hover {
@@ -50,4 +57,67 @@ h1 {
     border: 4px solid white;
     padding: 20px;
     transition: 0.45s;
+}
+
+#tit, #rectBody {
+    height: 50%;
+    width: 100%;
+}
+
+#tit2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#rectBody2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+}
+
+.prod {
+    height: 20vh;
+    width: 20vw;
+    line-height: 20vh;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+#cont1, #cont2, #cont3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cont {
+    height: 100%;
+}
+
+#p1 {
+    background-image: url(https://www.ceuandalucia.es/wp/wp-content/uploads/2018/03/administracion-sistemas-informaticos-red.jpg);
+    background-size: 100%;
+}
+
+#p2 {
+    background-image: url(https://fondosmil.com/fondo/69434.jpg);
+    background-size: 100%;
+}
+
+#p3 {
+    background-image: url(https://www.mtp.es/wp-content/uploads/2020/12/CS_MTP_2020.jpg);
+    background-size: 100%;
 }
