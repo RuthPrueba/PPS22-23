@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Contacto</title>
+</head>
+<body>
+  <body>
+    <header>
+      <br>
+      <ul>
+          <li><a href="conocernos.html">Conócenos</a></li>
+          <li><a href="login.html">Inicio de Sesión</a></li>
+          <li><a href="signup.html">Registro de usuario</a></li>
+          <li><a href="trabajar.html">Trabaja con nosotros</a></li>
+      </ul>
+      <a href="index.html"><img src="img/logo.PNG" class="logo"></a>
+  </header>
+<div class="contact-box">
+    <h3>Formulario de Contacto</h3>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label class="form-label" for="name">Nombre</label>
+        <input class="form-control" id="name" type="text" placeholder="Nombre" data-sb-validations="required" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Dirección de Correo</label>
+        <input class="form-control" id="emailAddress" type="email" placeholder="Dirección de Correo" data-sb-validations="required, email" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="message">Mensaje</label>
+        <textarea class="form-control" id="message" type="text" placeholder="Mensaje" style="height: 10rem; resize: none;" data-sb-validations="required"></textarea>
+      </div>
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
