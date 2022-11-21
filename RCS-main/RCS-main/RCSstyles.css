@@ -1,0 +1,121 @@
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(41, 77, 155); 
+    text-align: center;
+}
+h2{
+    color: rgb(70, 202, 219); 
+    text-align: center;
+}
+.Descripción{
+    text-align: center;
+    height: 25PX;
+    width: 100%;
+    background-color: darkblue;
+    text-decoration-color: white;
+    color: white;
+}
+.Copy{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px
+}
+.Copy2{
+    position: absolute;
+    bottom: -875px;
+    right: 16px;
+    font-size: 18px
+}
+.boton1{
+    position: absolute;
+    height: 100px;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boton2{
+    position: absolute;
+    height: 100px;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+h4{
+    text-align: center;
+    color: gray;
+}
+.mapa{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.contacto{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5cm;
+}
+.boton3{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.mover{
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.centrado{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.centrado1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.centrado2{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.centrado3{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
